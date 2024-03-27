@@ -1,7 +1,7 @@
 # azure-pipelines.yml
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: 'Self-Hosted-On-Azure'
 
 steps:
   - task: k6-load-test@0
