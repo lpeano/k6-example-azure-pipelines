@@ -6,5 +6,5 @@ steps:
   displayName: Check if k6 is installed
 
 - script: |
-    k6 run loadtests/local.js
+    k6 run test.js
   displayName: Run k6 load test within Azure Pipelines
